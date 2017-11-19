@@ -14,7 +14,7 @@ RUN /etc/my_init.d/00_regen_ssh_host_keys.sh
 #20171119: Link to V 5.3.5 Linux
 ENV MAILARCHIVA_BASE_URL https://mailarchiva.com/download?id=930             
 ENV MAILARCHIVA_INSTALL_DIR /opt
-ENV MAILARCHIVA_HEAP_SIZE 1024m
+ENV MAILARCHIVA_HEAP_SIZE 2048m
 
 # ENV MYSQL_JDBC_PACKAGE mysql-connector-java-5.1.32
 # MAILARCHIVA uses this env var to define the datapath
